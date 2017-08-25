@@ -1,2 +1,25 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+
+
+<%= form_tag '/home/index' do  %>
+
+
+    <%= label_tag :name %>
+    <%= text_field_tag :name %>
+
+
+    <br>
+
+
+    <%= label_tag :city %>
+    <%= autocomplete_field_tag 'city', '', autocomplete_city_name_home_index_path, :size => 75
+%>
+
+
+    <br>
+
+    <%= submit_tag %>
+
+
+<% end %>

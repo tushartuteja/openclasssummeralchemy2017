@@ -1,3 +1,21 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#ui-id-1{
+  max-width: 350px;
+  li {
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: lightgoldenrodyellow;
+
+
+  }
+
+  li:last-child{
+    border-bottom: 1px solid black;
+  }
+}
