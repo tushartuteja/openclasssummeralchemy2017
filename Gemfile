@@ -35,7 +35,7 @@ gem 'devise'
 gem 'omniauth-facebook'
 gem 'rails4-autocomplete'
 gem 'jquery-ui-rails'
-
+gem 'rubyzip'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
